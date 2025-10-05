@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collins Kipngetich | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Collins<span>.</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-item">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="section page active">
+    <div class="content home-content">
+      <div class="text">
+        <h1>Hi, I'm <span>Collins Kipngetich</span></h1>
+        <p>A passionate Full-Stack Developer from Kenya.</p>
+        <button onclick="navigateTo('projects')">View My Work</button>
+      </div>
+      <div class="image">
+        <img src="images/profile.jpg" alt="Profile Image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section page">
+    <h2>About Me</h2>
+    <p>
+      I’m a full-stack developer with a deep passion for building interactive, user-friendly web and mobile experiences. My goal is to create impactful software that improves everyday life.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section page">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>SanitizeMe</h3>
+        <p>An automated donation platform connecting donors with charities that help schoolgirls access sanitary towels.</p>
+      </div>
+      <div class="project-card">
+        <h3>FarmConnect</h3>
+        <p>A web app connecting farmers and customers with real-time inventory management and payments.</p>
+      </div>
+      <div class="project-card">
+        <h3>Kuva Africa</h3>
+        <p>A platform empowering African women with resources in tech, leadership, and wellness.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section page">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Flutter</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="page">
+    <h3>Contact Me</h3>
+    <p>Email: <a href="mailto:collinskipngetich@gmail.com">collinskipngetich@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/COLLINSKIPNGETICH" target="_blank">COLLINSKIPNGETICH</a></p>
+    <p>© 2025 Collins Kipngetich. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
